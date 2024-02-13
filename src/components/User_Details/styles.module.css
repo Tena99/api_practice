@@ -1,0 +1,26 @@
+article {
+  margin: 20px;
+}
+
+.general_container {
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 15px;
+}
+
+.username {
+  font-size: 24px;
+  margin-left: 30px;
+}
+
+.img_container {
+  border-radius: 20px;
+  overflow: hidden;
+  height: 150px;
+  width: 150px;
+
+  img {
+    display: block;
+    width: 100%;
+  }
+}
